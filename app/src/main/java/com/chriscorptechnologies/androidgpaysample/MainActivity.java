@@ -20,8 +20,8 @@ public class MainActivity extends AppCompatActivity {
 
         gpay.setModeTest();
 
-        String public_key = "442deb4b98982d09224fdac35694ca0b11e012def4574e9f93cc201408337854c56deae80b1691d748da8a49e404f5b0fab2141f79aeedc534123a933a6c5fc8";
-        String private_key = "045354b04ce04c9a40af8aaec7a10795ec2852e8ba7cc6605a7af59a8ea91e346cfec2028ff4e0da73e2b3739c76f901abcb9c4de10ff02b12833db5b1f7ad1d";
+        String public_key = "your public key";
+        String private_key = "your secret_key";
 
         gpay.setApiKey(public_key, private_key);
 
